@@ -36,3 +36,4 @@ src/.vs/
 # Debug files
 *.dSYM/
 >>>>>>> 030dc46bb822ed39e5d842a556ba0fa368071c89
+src/AspNet.Webhooks/obj/

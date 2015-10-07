@@ -42,6 +42,7 @@ namespace AspNet.Webhooks.Demo.WebHookHandlers
                     }
                     break;
                 case "issue:created":
+                    Trace.TraceInformation(entry.ToString());
                     var issue = entry.ToObject<BitbucketIssue>();
                     _repository.Create(issue).Wait();
                     break;
